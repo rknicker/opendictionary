@@ -12,8 +12,8 @@ export default function SearchItem({ item }) {
         <span className="ItemDesc">{item?.description?.slice(0, 50)} </span>
         ...
         <p className="showMore" rel="noreferrer" href={`/${item?.slug}`}>
-          <!-- {" "} -->
-          <!-- More -->
+          // {" "}
+          // More
         </p>
       </div>
     </Link>

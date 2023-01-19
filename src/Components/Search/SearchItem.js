@@ -4,17 +4,17 @@ import React from "react";
 export default function SearchItem({ item }) {
   return (
     <div className="DataItem">
-      <div className="nameVersion" href={`/${item?.slug}`}>
+      <Link className="nameVersion" href={`/${item?.slug}`}>
         <h3 className="ItemName">{item?.name}</h3>
         <h3 className="ItemVersion">{item?.wordVersion}</h3>
-      </div>
-      <div className="SearchItemDetay">
+      </Link>
+      <Link className="SearchItemDetay">
         <span className="ItemDesc" href={`/${item?.slug}`}> {item?.description?.slice(0, 50)} </span>
         ...
         <p className="showMore" rel="noreferrer" href={`/${item?.slug}`}>
           more
         </p>
-      </div>
+      </Link>
     </div>
   );
 }

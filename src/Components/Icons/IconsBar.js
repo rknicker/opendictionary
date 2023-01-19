@@ -34,7 +34,9 @@ export default function IconsBar({ whiteBackground, likeLink, saveLink }) {
         className={`IconListItem ${whiteBackground && "IconListItemWhite"}`}
         onClick={copyToClipboard}
       >
-        <BsShare className="IconListItemIcon" />
+         <a> 
+          <BsShare className="IconListItemIcon" />
+         </a> 
       </li>
     </ul>
   );

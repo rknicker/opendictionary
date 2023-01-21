@@ -154,8 +154,8 @@ li {
   text-decoration: underline;
   font-size: 16px;
   color: #071120;
-  /* font-weight: bold; */
-  /* font-style: italic; */
+  /*font-weight: bold; */
+  /*font-style: italic; */
 }
 
 .SearchItemDetay {
@@ -313,6 +313,6 @@ li {
 /*Detay Finish */
 
 #telegram-discussion-opendictionary1-5-1 {
-  width: 100% !important;
+  width: 90% !important;
   min-width: unset !important;
 }

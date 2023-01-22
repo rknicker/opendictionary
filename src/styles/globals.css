@@ -272,6 +272,7 @@ li {
 /* About Start */
 .About {
   display: flex;
+  padding: 0 20px;
   justify-content: center;
   align-items: center;
 }

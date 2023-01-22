@@ -62,7 +62,7 @@ const Details = ({ data }) => {
           whiteBackground
         />
       </div>
-      <div style={{ marginTop: "2rem" }} id="comments-container"></div>
+      <div style={{ margin: "2rem 0 0 -15px" }} id="comments-container"></div>
     </>
   );
 };

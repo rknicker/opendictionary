@@ -42,6 +42,7 @@ const Details = ({ data }) => {
         <title>{data?.name} - #OpenDictionary</title>
         <link rel="canonical" href={URL} />
       </Head>
+      <div className="wrapper">
       <div className="Detay">
         <h1 className="DetayHead">{data?.name}</h1>
         <p className="DetayVersion">{data?.wordVersion}</p>
@@ -61,6 +62,7 @@ const Details = ({ data }) => {
           saveLink={`https://t.me/${telegramChannelName}/${data?.telegramPost}`}
           whiteBackground
         />
+      </div>
       </div>
       <div style={{ margin: "2rem 0 0 -15px" }} id="comments-container"></div>
     </>

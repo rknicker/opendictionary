@@ -42,29 +42,42 @@ const Details = ({ data }) => {
         <title>{data?.name} - #OpenDictionary</title>
         <link rel="canonical" href={URL} />
       </Head>
+
       <div className="bodywrap">
-      <div className="Detay">
-        <h1 className="DetayHead">{data?.name}</h1>
-        <p className="DetayVersion">{data?.wordVersion}</p>
-      </div>
 
-      <div>
-        <p>{data?.description}</p>
-      </div>
+        /* > Term plus serial Number */
+        <div className="Detay">
+          <h1 className="DetayHead">{data?.name}</h1>
+          <p className="DetayVersion">{data?.wordVersion}</p>
+        </div>
+        /* Term plus serial Number < */
 
-      <div className="DetayMd5">
-        <span>{data?.md5}</span>
-      </div>
+        /* > Definition of Term */
+        <div>
+          <p>{data?.description}</p>
+        </div>
+        /* Definition of Term < */
 
-      <div className="DetayIconBar">
-        <IconsBar
-          likeLink={`tg://resolve?domain=opendictionary1&post=${data?.telegramPost}`}
-          saveLink={`https://t.me/${telegramChannelName}/${data?.telegramPost}`}
-          whiteBackground
-        />
-      </div>
-      </div>
-      <div style={{ margin: "2rem 0 0 -15px" }} id="comments-container"></div>
+        /* > MD5 hash of Definition */
+        <div className="DetayMd5">
+          <span>{data?.md5}</span>
+        </div>
+        /* MD5 hash of Definition < */
+
+        /* > like, save, copy url */
+        <div className="DetayIconBar">
+          <IconsBar
+            likeLink={`tg://resolve?domain=opendictionary1&post=${data?.telegramPost}`}
+            saveLink={`https://t.me/${telegramChannelName}/${data?.telegramPost}`}
+            whiteBackground
+          />
+        </div>
+        /* like, save, copy url < */
+      
+      </div> 
+      /* bodywrap div < */
+
+      <div className="widgets_container" id="comments-container"></div>
     </>
   );
 };

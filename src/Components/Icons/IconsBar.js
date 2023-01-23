@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineHeart } from "react-icons/ai";
-import { BsBookmark, BsShare } from "react-icons/bs";
+import { BsBookmarks, BsShare } from "react-icons/bs";
 import { useRouter } from "next/router";
 import { toast } from "react-hot-toast";
 
@@ -27,11 +27,11 @@ export default function IconsBar({ whiteBackground, likeLink, saveLink }) {
       </li>
       <li className={`IconListItem`}>
         <a href={saveLink} target="_blank" rel="noreferrer">
-          <BsBookmark className="IconListItemIcon" />
+          <BsBookmarks className="IconListItemIcon" />
         </a>
       </li>
       <li className={`IconListItem`} onClick={copyToClipboard}>
-         <a> 
+         <a href={" "}> 
           <BsShare className="IconListItemIcon" />
          </a> 
       </li>

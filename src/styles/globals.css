@@ -60,6 +60,8 @@ li {
 }
 
 
+/*Navbar Start */
+
 .HeadWrapper {
   height: 60px;
   display: flex;
@@ -122,8 +124,8 @@ li {
 
 
 /*Search Start */
+
 .Search {
-  /*Ayarlanacak */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -160,7 +162,7 @@ li {
 .showMore {
   text-decoration: underline;
   font-size: 16px;
-  color: #071120;
+  color: #6495ED;
   /*font-weight: bold; */
   /*font-style: italic; */
 }
@@ -173,7 +175,8 @@ li {
 /*Search Finish */
 
 
-/*Data Item */
+/*Data Item Start*/
+
 .DataWrapper {
   width: 100%;
   display: flex;
@@ -220,20 +223,10 @@ li {
   margin-top: 12px;
 }
 
-.ReadMore {
-  background-color: #E0FFB9;
-  border-radius: 9px;
-  padding: 12px 16px;
-}
+/*Data Item Finish*/
 
-.ReadMoreBtn {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  font-size: 12px;
-  font-weight: bold;
-  color: #071120;
-}
+
+/* Icons Bar Start */
 
 .IconList {
   display: flex;
@@ -269,7 +262,11 @@ li {
   font-size: 1.15rem;
 }
 
+/* Icons Bar Finish */
+
+
 /* About Start */
+
 .About {
   display: flex;
   padding: 0 20px;
@@ -284,6 +281,7 @@ li {
 /* About Finish */
 
 /*Detay Start */
+
 .Detay {
   display: flex;
   align-items: center;
@@ -303,7 +301,6 @@ li {
   margin: 1rem 0;
 }
 
-
 .DetayIconList {
   display: flex;
   justify-content: center;
@@ -321,10 +318,14 @@ li {
 /*Detay Finish */
 
 
-/*Comments Section; Margin syntax top right bottom left, acepts negative pixels*/
+/*Comments Section Start */
+
 .widget_container {
   margin: 0px 0px 0px 0px;
 }
+
+/*Comments Section Start */
+
 
 #telegram-discussion-opendictionary1-5-1 {
   width: 100% !important;

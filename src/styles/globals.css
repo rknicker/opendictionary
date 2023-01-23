@@ -238,7 +238,7 @@ li {
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: #EEEEEE;
+  background-color: #FFFFFF;
   border-radius: 9px;
   margin: 0 4px;
 }
@@ -247,10 +247,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.IconListItemWhite {
-  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
 }
 
 .IconListItemIcon {
@@ -306,7 +304,7 @@ li {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #EEEEEE;
+  background-color: #FFFFFF;
   border-radius: 9px;
   margin: 0 4px;
 }

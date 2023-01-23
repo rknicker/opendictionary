@@ -320,6 +320,12 @@ li {
 
 /*Detay Finish */
 
+
+/*Comments Section; Margin syntax top right bottom left, acepts negative pixels*/
+.widget_container {
+  margin: 0px 0px 0px 0px;
+}
+
 #telegram-discussion-opendictionary1-5-1 {
   width: 100% !important;
   min-width: unset !important;

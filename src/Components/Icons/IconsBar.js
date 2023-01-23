@@ -20,20 +20,17 @@ export default function IconsBar({ whiteBackground, likeLink, saveLink }) {
 
   return (
     <ul className="IconList">
-      <li className={`IconListItem ${whiteBackground && "IconListItemWhite"}`}>
+      <li className={`IconListItem`}>
         <a href={likeLink}>
           <AiOutlineHeart className="IconListItemIcon heart" />
         </a>
       </li>
-      <li className={`IconListItem ${whiteBackground && "IconListItemWhite"}`}>
+      <li className={`IconListItem`}>
         <a href={saveLink} target="_blank" rel="noreferrer">
           <BsBookmark className="IconListItemIcon" />
         </a>
       </li>
-      <li
-        className={`IconListItem ${whiteBackground && "IconListItemWhite"}`}
-        onClick={copyToClipboard}
-      >
+      <li className={`IconListItem`} onClick={copyToClipboard}>
          <a> 
           <BsShare className="IconListItemIcon" />
          </a> 

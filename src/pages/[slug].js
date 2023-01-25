@@ -17,7 +17,7 @@ export const generatedData = dictionaryData.map((item) => ({
   md5: MD5(item?.description).toString(),
 }))
 
-const Details = ({ dictionaryData }) => {
+const Details = ({ generatedData }) => {
   const effectRan = useRef(false)
   const { asPath } = useRouter()
   const origin =
@@ -34,7 +34,7 @@ const Details = ({ dictionaryData }) => {
       script.src = 'https://telegram.org/js/telegram-widget.js?21'
       script.setAttribute(
         'data-telegram-discussion',
-        `${telegramChannelName}/${DictionaryData?.telegramPost}`
+        `${telegramChannelName}/${generatedData?.telegramPost}`
       )
       script.setAttribute('data-comments-limit', '5')
       document.getElementById('comments-container').appendChild(script)
@@ -44,26 +44,26 @@ const Details = ({ dictionaryData }) => {
   return (
     <>
       <Head>
-        <title>{dictionaryData?.name} - #OpenDictionary</title>
+        <title>{generatedData?.name} - #OpenDictionary</title>
         <link rel='canonical' href={URL} />
       </Head>
       <div className='Detay'>
-        <h1 className='DetayHead'>{dictionaryData?.name}</h1>
-        <p className='DetayVersion'>{dictionaryData?.wordVersion}</p>
+        <h1 className='DetayHead'>{generatedData?.name}</h1>
+        <p className='DetayVersion'>{generatedData?.wordVersion}</p>
       </div>
 
       <div>
-        <p>{dictionaryData?.description}</p>
+        <p>{generatedData?.description}</p>
       </div>
 
       <div className='DetayMd5'>
-        <span>{dictionaryData?.md5}</span>
+        <span>{generatedData?.md5}</span>
       </div>
 
       <div className='DetayIconBar'>
         <IconsBar
-          likeLink={`${likeButtonLink}${dictionaryData?.telegramPost}`}
-          saveLink={`${Telegram}/${dictionaryData?.telegramPost}`}
+          likeLink={`${likeButtonLink}${generatedData?.telegramPost}`}
+          saveLink={`${Telegram}/${generatedData?.telegramPost}`}
           whiteBackground
         />
       </div>

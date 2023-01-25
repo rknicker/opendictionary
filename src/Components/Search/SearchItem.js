@@ -9,7 +9,7 @@ export default function SearchItem({ item }) {
         <h3 className="ItemVersion">{item?.wordVersion}</h3>
       </div>
       <div className="SearchItemDetay">
-        <span className="ItemDesc"> {item?.description?.slice(0, 50)} 'rexs' </span>
+        <span className="ItemDesc"> {item?.description?.slice(0, 50)}</span>
         ...
         <p className="showMore" rel="noreferrer">
           more

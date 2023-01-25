@@ -1,5 +1,5 @@
 import IconsBar from '@/Components/Icons/IconsBar'
-import dictionaryData from '../Data/dictionary'
+import DictionaryData from '../Data/dictionary'
 import { useEffect, useRef } from 'react'
 import MD5 from 'crypto-js/md5'
 import Head from 'next/head'
@@ -12,12 +12,12 @@ import {
   telegramChannelName,
 } from '@/Data/constants'
 
-export const generatedData = dictionaryData.map((item) => ({
+export const generatedData = DictionaryData.map((item) => ({
   ...item,
   md5: MD5(item?.description).toString(),
 }))
 
-const Details = ({ generatedData }) => {
+const Details = ({ item }) => {
   const effectRan = useRef(false)
   const { asPath } = useRouter()
   const origin =
@@ -34,7 +34,7 @@ const Details = ({ generatedData }) => {
       script.src = 'https://telegram.org/js/telegram-widget.js?21'
       script.setAttribute(
         'data-telegram-discussion',
-        `${telegramChannelName}/${generatedData?.telegramPost}`
+        `${telegramChannelName}/${item?.telegramPost}`
       )
       script.setAttribute('data-comments-limit', '5')
       document.getElementById('comments-container').appendChild(script)
@@ -44,26 +44,26 @@ const Details = ({ generatedData }) => {
   return (
     <>
       <Head>
-        <title>{generatedData?.name} - #OpenDictionary</title>
+        <title>{item?.name} - #OpenDictionary</title>
         <link rel='canonical' href={URL} />
       </Head>
       <div className='Detay'>
-        <h1 className='DetayHead'>{generatedData?.name}</h1>
-        <p className='DetayVersion'>{generatedData?.wordVersion}</p>
+        <h1 className='DetayHead'>{item?.name}</h1>
+        <p className='DetayVersion'>{item?.wordVersion}</p>
       </div>
 
       <div>
-        <p>{generatedData?.description}</p>
+        <p>{item?.description}</p>
       </div>
 
       <div className='DetayMd5'>
-        <span>{generatedData?.md5}</span>
+        <span>{item?.md5}</span>
       </div>
 
       <div className='DetayIconBar'>
         <IconsBar
-          likeLink={`${likeButtonLink}${generatedData?.telegramPost}`}
-          saveLink={`${Telegram}/${generatedData?.telegramPost}`}
+          likeLink={`${likeButtonLink}${item?.telegramPost}`}
+          saveLink={`${Telegram}/${item?.telegramPost}`}
           whiteBackground
         />
       </div>
@@ -74,7 +74,7 @@ const Details = ({ generatedData }) => {
 
 export async function getStaticPaths() {
   return {
-    paths: generatedData.map((item) => ({
+    paths: item.map((item) => ({
       params: {
         slug: item.slug,
       },
@@ -86,7 +86,7 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
   return {
     props: {
-      data: generatedData.filter(
+      data: item.filter(
         (item) => item.slug === context.params?.slug
       )?.[0],
     },

@@ -1,5 +1,5 @@
 import IconsBar from '@/Components/Icons/IconsBar'
-import DictionaryData from '../Data/dictionary'
+import dictionaryData from '../Data/dictionary'
 import { useEffect, useRef } from 'react'
 import MD5 from 'crypto-js/md5'
 import Head from 'next/head'
@@ -12,12 +12,12 @@ import {
   telegramChannelName,
 } from '@/Data/constants'
 
-export const generatedData = DictionaryData.map((item) => ({
+export const generatedData = dictionaryData.map((item) => ({
   ...item,
   md5: MD5(item?.description).toString(),
 }))
 
-const Details = ({ data }) => {
+const Details = ({ dictionaryData }) => {
   const effectRan = useRef(false)
   const { asPath } = useRouter()
   const origin =
@@ -44,26 +44,26 @@ const Details = ({ data }) => {
   return (
     <>
       <Head>
-        <title>{data?.name} - #OpenDictionary</title>
+        <title>{dictionaryData?.name} - #OpenDictionary</title>
         <link rel='canonical' href={URL} />
       </Head>
       <div className='Detay'>
-        <h1 className='DetayHead'>{data?.name}</h1>
-        <p className='DetayVersion'>{data?.wordVersion}</p>
+        <h1 className='DetayHead'>{dictionaryData?.name}</h1>
+        <p className='DetayVersion'>{dictionaryData?.wordVersion}</p>
       </div>
 
       <div>
-        <p>{data?.description}</p>
+        <p>{dictionaryData?.description}</p>
       </div>
 
       <div className='DetayMd5'>
-        <span>{data?.md5}</span>
+        <span>{dictionaryData?.md5}</span>
       </div>
 
       <div className='DetayIconBar'>
         <IconsBar
-          likeLink={`${likeButtonLink}${data?.telegramPost}`}
-          saveLink={`${Telegram}/${data?.telegramPost}`}
+          likeLink={`${likeButtonLink}${dictionaryData?.telegramPost}`}
+          saveLink={`${Telegram}/${dictionaryData?.telegramPost}`}
           whiteBackground
         />
       </div>

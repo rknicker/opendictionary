@@ -327,17 +327,17 @@ li {
 #telegram-discussion-opendictionary1-5-1 {
   width: 100% !important;
   min-width: 0px !important;
-.body_widget_discussion {
+}
+#telegram-discussion-opendictionary1-5-1.body_widget_discussion {
   min-width: 0px !important;
 }
-.tgme_post_discussion_header_wrap {
+#telegram-discussion-opendictionary1-5-1.tgme_post_discussion_header_wrap {
     padding: 14px 0px 7px !important;
 }
-.tgme_widget_message_wrap .js-widget_message_wrap {
+#telegram-discussion-opendictionary1-5-1.tgme_widget_message_wrap .js-widget_message_wrap {
     padding: 7px 0px !important;
 }
-.tgme_post_discussion_footer {
+#telegram-discussion-opendictionary1-5-1.tgme_post_discussion_footer {
     padding: 7px 0px !important;
-}
 }
 

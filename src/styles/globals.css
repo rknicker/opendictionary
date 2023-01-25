@@ -323,9 +323,23 @@ li {
 }
 
 /*Comments Section Start */
-
-
+/*200 px settings*/
 #telegram-discussion-opendictionary1-5-1 {
   width: 100% !important;
-  min-width: unset !important;
+  min-width: 0px !important;
+  /* revize codes */
+  margin: 0 -15px  !important;
+.body_widget_discussion {
+  min-width: 0px !important;
 }
+.tgme_post_discussion_header_wrap {
+    padding: 14px 0px 7px !important;
+}
+.tgme_widget_message_wrap .js-widget_message_wrap {
+    padding: 7px 0px !important;
+}
+.tgme_post_discussion_footer {
+    padding: 7px 0px !important;
+}
+}
+

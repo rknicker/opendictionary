@@ -31,8 +31,15 @@ const Details = ({ data }) => {
         `${telegramChannelName}/${data?.telegramPost}`
       );
       script.setAttribute("data-comments-limit", "5");
+      script.setAttribute("width", "100%");
+      script.setAttribute("min-width", "0px");
+      script.setAttribute.body_widget_discussion("min-width", "0px");
+      script.setAttribute.tgme_post_discussion_header_wrap("padding", "14px 0px 7px");
+      script.setAttribute.tgme_widget_message_wrap("padding", "7px 0px");
+      script.setAttribute.tgme_post_discussion_footer("padding", "7px 0px");
       document.getElementById("comments-container").appendChild(script);
     }
+       
     return () => (effectRan.current = true);
   }, []);
 

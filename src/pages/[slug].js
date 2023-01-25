@@ -34,7 +34,7 @@ const Details = ({ data }) => {
       script.src = 'https://telegram.org/js/telegram-widget.js?21'
       script.setAttribute(
         'data-telegram-discussion',
-        `${telegramChannelName}/${item?.telegramPost}`
+        `${telegramChannelName}/${DictionaryData?.telegramPost}`
       )
       script.setAttribute('data-comments-limit', '5')
       document.getElementById('comments-container').appendChild(script)

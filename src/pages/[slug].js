@@ -45,7 +45,7 @@ const Details = ({ data }) => {
   return (
     <>
       <Head>
-        <title>{data?.name} - #OpenDictionary</title>
+        <title>{data?.name} - OD1</title>
         <link rel='canonical' href={URL} />
       </Head>
       <div className='Detay'>

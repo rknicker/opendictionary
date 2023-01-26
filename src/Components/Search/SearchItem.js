@@ -11,7 +11,7 @@ export default function SearchItem({ item }) {
       <div className="SearchItemDetay">
         <span className="ItemDesc">{item?.description?.slice(0, 50)}
           <span className="showMore" rel="noreferrer">
-             . . . more
+            - . . .
           </span>
         </span>
       </div>

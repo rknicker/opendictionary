@@ -10,9 +10,9 @@ export default function SearchItem({ item }) {
       </div>
       <div className="SearchItemDetay">
         <span className="ItemDesc">{item?.description?.slice(0, 50)}
-          <p className="showMore" rel="noreferrer">
+          <span className="showMore" rel="noreferrer">
              . . . more
-          </p>
+          </span>
         </span>
       </div>
     </Link>

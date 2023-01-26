@@ -24,16 +24,10 @@ li {
 .container {
   width: 100%;
   height: 55vh;
+  padding: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.bodywrap {
-  max-width: 536px;
-  width: 100%;
-  padding: 0 20px;
-  margin: 0 auto;
 }
 
 .wrapper {
@@ -44,7 +38,8 @@ li {
 
 @media (max-width: 536px) {
   .wrapper {
-    padding: 0 0;
+    /* padding: 0 20px; */
+    width: 100%;
   }
 }
 
@@ -59,8 +54,6 @@ li {
   text-align: center;
 }
 
-
-/*Navbar Start */
 
 .HeadWrapper {
   height: 60px;
@@ -113,20 +106,21 @@ li {
   border-radius: 50%;
   background-color: #FFF;
   color: inherit;
-
+  font-size: 36px;
 }
 
-.col .create .createIcon {
-  font-size: 24px;
+.createIcon {
+  font-size: 48px;
 }
 
 /*Navbar Finish */
 
 
 /*Search Start */
-
 .Search {
+  /*Ayarlanacak */
   width: 100%;
+  padding: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,20 +145,20 @@ li {
   border: none;
   outline: none;
   width: 100%;
-  padding: 0 10px;
+  height: 100%;
+  padding: 10px 10px;
 }
 
 .SearchItems {
   height: 400px;
+  padding: 0 20px;
   overflow-y: auto;
 }
 
 .showMore {
   text-decoration: underline;
-  font-size: 16px;
-  color: #6495ED;
-  /*font-weight: bold; */
-  /*font-style: italic; */
+  /* font-weight: bold; */
+  /* font-style: italic; */
 }
 
 .SearchItemDetay {
@@ -175,8 +169,7 @@ li {
 /*Search Finish */
 
 
-/*Data Item Start*/
-
+/*Data Item */
 .DataWrapper {
   width: 100%;
   display: flex;
@@ -223,10 +216,20 @@ li {
   margin-top: 12px;
 }
 
-/*Data Item Finish*/
+.ReadMore {
+  background-color: #E0FFB9;
+  border-radius: 9px;
+  padding: 12px 16px;
+}
 
-
-/* Icons Bar Start */
+.ReadMoreBtn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: bold;
+  color: #071120;
+}
 
 .IconList {
   display: flex;
@@ -238,17 +241,24 @@ li {
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: #FFFFFF;
+  background-color: #EEEEEE;
   border-radius: 9px;
   margin: 0 4px;
+}
+.IconListItem:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .5s ease;
 }
 
 .IconListItem a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+}
+
+.IconListItemWhite {
+  background-color: #FFFFFF;
 }
 
 .IconListItemIcon {
@@ -260,11 +270,7 @@ li {
   font-size: 1.15rem;
 }
 
-/* Icons Bar Finish */
-
-
 /* About Start */
-
 .About {
   display: flex;
   padding: 0 20px;
@@ -274,15 +280,16 @@ li {
 
 .About .AboutDesc>h1 {
   margin-bottom: 1rem;
+  padding: 0 20px;
 }
 
 /* About Finish */
 
 /*Detay Start */
-
 .Detay {
   display: flex;
   align-items: center;
+  padding: 0 20px;
   gap: 1rem;
   margin-bottom: 1rem;
 
@@ -297,47 +304,46 @@ li {
   opacity: 0.6;
   font-style: italic;
   margin: 1rem 0;
+  padding: 0 20px;
+  word-break: break-word;
 }
+
 
 .DetayIconList {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #FFFFFF;
+  background-color: #EEEEEE;
   border-radius: 9px;
   margin: 0 4px;
 }
 
 .DetayIconBar {
   margin-top: 4rem;
+  padding: 0 20px;
 }
 
 /*Detay Finish */
 
-
-/*Comments Section Start */
-
-.widget_container {
-  margin: 0px 0px 0px 0px;
+/*200 px settings*/
+.tgme_post_discussion_header_wrap,
+.tgme_widget_message_wrap .js-widget_message_wrap,
+.tgme_post_discussion_footer {
+  padding-left: 0 !important!;
+  padding-right: 0 !important!;  
 }
 
-/*Comments Section Start */
-/*200 px settings*/
 #telegram-discussion-opendictionary1-5-1 {
   width: 100% !important;
-  min-width: 0px !important;
+  min-width: unset !important;
+  /* revize codes */
+  /* to be deleted margin: 0 -15px  !important; */
+  /* to be deleted width:calc(100% + 30px) !important */
 }
-/* #telegram-discussion-opendictionary1-5-1.body_widget_discussion { */
-/*   min-width: 0px !important; */
-/* } */
-/* #telegram-discussion-opendictionary1-5-1.tgme_post_discussion_header_wrap { */
-/*     padding: 14px 0px 7px !important; */
-/* } */
-/* #telegram-discussion-opendictionary1-5-1.tgme_widget_message_wrap .js-widget_message_wrap { */
-/*     padding: 7px 0px !important; */
-/* } */
-/* #telegram-discussion-opendictionary1-5-1.tgme_post_discussion_footer { */
-/*     padding: 7px 0px !important; */
-/* } */
+/* to be deleted .DetayMd5 { word-break: break-word;} */
 
+#telegram-discussion-opendictionary1-5-1 body {
+  min-width: unset !imporant!
+}
+#telegram-discussion-opendictionary1-5-1 { min-width: 0px !important; }

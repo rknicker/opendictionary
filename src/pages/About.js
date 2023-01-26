@@ -20,7 +20,7 @@ export default function About() {
             to misinturpret. In these cases the reader can plausibly claim 
             they never intended to be responsible for comprehending some 
             set of words. 
-          </p>{" "}
+          </p>
           <br />
           <p>
             To solve this problem, the likes of David Wynn Miller and 

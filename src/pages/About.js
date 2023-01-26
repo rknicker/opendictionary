@@ -6,7 +6,7 @@ export default function About() {
     <>
       <Head>
         <title>About</title>
-        <link rel="icon" href="/favicon.png">
+        <link rel="icon" href="/favicon.png"></link>
       </Head>
 
       <div className="About">

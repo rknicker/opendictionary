@@ -191,6 +191,7 @@ li {
 .nameVersion {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .ItemName {
@@ -289,6 +290,7 @@ li {
 .Detay {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 20px;
   gap: 1rem;
   margin-bottom: 1rem;

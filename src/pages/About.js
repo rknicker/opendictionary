@@ -25,10 +25,10 @@ export default function About() {
               In an example, we take 11 English dictionaries, some are printed volumes, others are online repositories.
             </li>
             <li>
-              Of the 11 dictionaries, all of them have a definition for the word "apple". 2 of them have multiple definitions.
+              Of the 11 dictionaries, all of them have a definition for the word &quotapple&quot. 2 of them have multiple definitions.
             </li>
             <li>
-              Of the 13 total definitions, 11 describe a colored fruit with white flesh with seeds in it's star shaped core,
+              Of the 13 total definitions, 11 describe a colored fruit with white flesh with seeds in it&aposs star shaped core,
               and 2 describe a brand of consumer electronics related to iPhone iMac, Macbook, AppleTV, etc.
             </li>
             <li>
@@ -39,9 +39,9 @@ export default function About() {
           <br />
           <p>
             One can use the Open Dictionary notation for words that are not yet included in 
-            this database by performing the above activity, and then writing "Apple 1.1.2" in the body of the writing, and in a footnote
-            writing "Open Dictionary v1" or "ODv1". to learn about the proper serial number syntax, please search this database for 
-            "Open Dictionary 2.1.1" like you would search for any other word. 
+            this database by performing the above activity, and then writing &quotApple 1.1.2&quot in the body of the writing, and in a footnote
+            writing &quotOpen Dictionary v1&quot or &quotODv1&quot. to learn about the proper serial number syntax, please search this database for 
+            &quotOpen Dictionary 2.1.1&quot like you would search for any other word. 
           </p>
           <br />
           <p>

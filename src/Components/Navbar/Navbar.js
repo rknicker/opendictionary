@@ -38,7 +38,7 @@ export default function Navbar() {
           </div>
           <div className='col'>
             <div className='HeadWrapper'>
-              <h1 className='Head'>Open Didionny 1.0</h1>
+              <h1 className='Head'>#OpenDictionary</h1>
             </div>
           </div>
           <div className='col'>

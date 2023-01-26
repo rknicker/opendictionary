@@ -40,9 +40,9 @@ export default function About() {
           <br />
           <p>
             One can use the Open Dictionary notation for words that are not yet included in 
-            this database by performing the above activity, and then writing &quotApple 1.1.2&quot in the body of the writing, and in a footnote
-            writing &quotOpen Dictionary v1&quot or &quotODv1&quot. to learn about the proper serial number syntax, please search this database for 
-            &quotOpen Dictionary 2.1.1&quot like you would search for any other word. 
+            this database by performing the above activity, and then writing &quot;Apple 1.1.2&quot; in the body of the writing, and in a footnote
+            writing &quot;Open Dictionary v1&quot; or &quot;ODv1&quot;. to learn about the proper serial number syntax, please search this database for 
+            &quot;Open Dictionary 2.1.1&quot; like you would search for any other word. 
           </p>
           <br />
           <p>

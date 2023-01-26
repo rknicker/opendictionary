@@ -18,7 +18,7 @@ export default function About() {
           </p>
           <br />
           <p>
-            Find the most common definition from a collection of contemporary dictionaries.&#39
+            Find the most common definition from a collection of contemporary dictionaries.&#39;
           </p>
           <br />
           <ul>

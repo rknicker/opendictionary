@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About</title>
+        <title>About - OD1</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
@@ -41,7 +41,7 @@ export default function About() {
           <p>
             One can use the Open Dictionary notation for words that are not yet included in 
             this database by performing the above activity, and then writing &quot;Apple 1.1.2&quot; in the body of the writing, and in a footnote
-            writing &quot;Open Dictionary v1&quot; or &quot;ODv1&quot;. to learn about the proper serial number syntax, please search this database for 
+            writing &quot;Open Dictionary 1.0&quot; or &quot;OD1&quot;. to learn about the proper serial number syntax, please search this database for 
             &quot;Open Dictionary 2.1.1&quot; like you would search for any other word. 
           </p>
           <br />

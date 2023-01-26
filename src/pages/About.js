@@ -18,7 +18,7 @@ export default function About() {
           </p>
           <br />
           <p>
-            Find the most common definition from a collection of contemporary dictionaries.&#39;
+            Find the most common definition from a collection of contemporary dictionaries.
           </p>
           <br />
           <ul>
@@ -26,10 +26,10 @@ export default function About() {
               In an example, we take 11 English dictionaries, some are printed volumes, others are online repositories.
             </li>
             <li>
-              Of the 11 dictionaries, all of them have a definition for the word &quot;apple&quot;hello'world'. 2 of them have multiple definitions.
+              Of the 11 dictionaries, all of them have a definition for the word &quot;apple&quot;. 2 of them have multiple definitions.
             </li>
             <li>
-              Of the 13 total definitions, 11 describe a colored fruit with white flesh with seeds in it&aposs star shaped core,
+              Of the 13 total definitions, 11 describe a colored fruit with white flesh with seeds in it&apos;s star shaped core,
               and 2 describe a brand of consumer electronics related to iPhone iMac, Macbook, AppleTV, etc.
             </li>
             <li>

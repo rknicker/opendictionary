@@ -47,6 +47,7 @@ const Details = ({ data }) => {
       <Head>
         <title>{data?.name} - OD1</title>
         <link rel='canonical' href={URL} />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className='Detay'>
         <h1 className='DetayHead'>{data?.name}</h1>

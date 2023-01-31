@@ -62,7 +62,7 @@ const Details = ({ data }) => {
       </div>
 
       <div className='Detay'>
-        {data?.wordVersion === '1.2' ? (
+        {data?.version === '1.2' ? (
               <a
                 href={`${URL}/1-2`}
                 target='_blank'

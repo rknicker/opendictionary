@@ -64,12 +64,11 @@ const Details = ({ data }) => {
       <div className='Detay'>
         {data?.wordVersion === '1.2' ? (
               <a
-                href={createWordButtonLink}
+                href={`${URL}/1-2`}
                 target='_blank'
                 rel='noreferrer'
-                className='create'
               >
-                <BsPlus className='createIcon' />
+                See /posit
               </a>
             ) :()}
       </div>

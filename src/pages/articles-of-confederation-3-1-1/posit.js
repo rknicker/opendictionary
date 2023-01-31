@@ -132,22 +132,22 @@ And Whereas it hath pleased the Great Governor of the World to incline the heart
 On the part and behalf of the state of: Deleware, New Hampshire, Maryland, Virginia, Massachusetts Bay, Rhode Island and Providence Plantations, South Carolina, Connecticut, Georgia, New York, New Jersey. 
           </p>
           <br />
-          <p>&nbsp;
+          <p>
 Agreed to by Congress 15 November 1777.
-          <br />&nbsp;
+          <br />
 Approved by the congress 17 November 1777.
-          <br />&nbsp;
+          <br />
 Witnessed by hand 9 July 1778. catalog.archives.gov/id/301687
-          <br />&nbsp;
+          <br />
 In force after ratification by Maryland, 1 March 1781
           <br />
-          <br />&nbsp;
+          <br />
 MD5 Hash of &quot;Articles...state.&quot; 07b9d9ebce34ce251ce82b093c5fa89b 
-          <br />&nbsp;
+          <br />
 MD5 Hash of &quot;To all...America.&quot; 49b02b198b1004d767a8630a88bdcbb4 
-          <br />&nbsp;
+          <br />
 (single space between words, sentences, paragraphs, aricles, no new lines)
-          <br />&nbsp;
+          <br />
 Pasted into https://www.md5hashgenerator.com/
           </p>
         </div>

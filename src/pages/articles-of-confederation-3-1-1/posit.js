@@ -133,7 +133,7 @@ On the part and behalf of the state of: Deleware, New Hampshire, Maryland, Virgi
           </p>
           <br />
           <p>
-Agreed to by Congress 15 November 1777.
+Agreed to by the congress 15 November 1777.
           <br />
 Approved by the congress 17 November 1777.
           <br />
@@ -146,7 +146,7 @@ MD5 Hash of &quot;Articles...state.&quot; 07b9d9ebce34ce251ce82b093c5fa89b
           <br />
 MD5 Hash of &quot;To all...America.&quot; 49b02b198b1004d767a8630a88bdcbb4 
           <br />
-(single space between words, sentences, paragraphs, aricles, no new lines)
+(single space between words, sentences, paragraphs, articles, no new lines)
           <br />
 Pasted into https://www.md5hashgenerator.com/
           </p>

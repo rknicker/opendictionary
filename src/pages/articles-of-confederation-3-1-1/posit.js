@@ -17,7 +17,7 @@ A document that was a product of the second continental congress of the united s
           </p>
           <br />
           <p>&nbsp;
-A 1778-07-09 copy from https://catalog.archives.gov/id/301687 accessed on 2022/01/30 reads:
+A 1778/07/09 copy from https://catalog.archives.gov/id/301687 accessed on 2022/01/30 reads:
           </p>
           <br />
           <p>&nbsp;

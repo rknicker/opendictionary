@@ -62,7 +62,7 @@ const Details = ({ data }) => {
       </div>
 
       <div> {data?.version === '1.0' ? (
-        <a className='Detay' href={`${origin}${asPath}/posit`}>See posit </a>)}
+        <a className='Detay' href={`${origin}${asPath}/posit`}>See posit </a>):()}
       </div>
 
       <div className='DetayIconBar'>

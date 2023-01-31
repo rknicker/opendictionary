@@ -61,8 +61,17 @@ const Details = ({ data }) => {
         <span>{data?.md5}</span>
       </div>
 
-      <div>
-        
+      <div className='Detay'>
+        {data?.wordVersion === '1.2' ? (
+              <a
+                href={createWordButtonLink}
+                target='_blank'
+                rel='noreferrer'
+                className='create'
+              >
+                <BsPlus className='createIcon' />
+              </a>
+            ) :()}
       </div>
 
       <div className='DetayIconBar'>

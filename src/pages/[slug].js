@@ -53,13 +53,7 @@ const Details = ({ data }) => {
         <p className='DetayVersion'>{data?.wordVersion}</p>
       </div>
 
-      <div className='Detay'>
-        <p
-          dangerouslySetInnerHTML={{
-            __html: data?.description.replace(/\n/g, '<br />'),
-          }}
-        />
-      </div>
+      
 
       <div className='Detay'>
         <p>{data?.description}</p>
@@ -69,17 +63,17 @@ const Details = ({ data }) => {
         <span>{data?.md5}</span>
       </div>
 
-      <div className='Detay'>
-        {data?.version === '1.2' ? (
-              <a
-                href={`${URL}/1-2`}
-                target='_blank'
-                rel='noreferrer'
-              >
-                See /posit
-              </a>
-            ) :()}
-      </div>
+ /*     <div className='Detay'>
+ /*       {data?.version === '1.2' ? (
+ /*             <a
+ /*               href={`${URL}/1-2`}
+ /*               target='_blank'
+ /*               rel='noreferrer'
+ /*             >
+ /*               See /posit
+ /*             </a>
+ /*           ) :()}
+ /*     </div>
 
       <div className='DetayIconBar'>
         <IconsBar

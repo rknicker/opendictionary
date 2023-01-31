@@ -12,11 +12,11 @@ export default function Posit() {
       <div className="About">
         <div className="AboutDesc">
           <h1>Articles of Confederation 3.1.1</h1>
-          <p>{" "}
+          <p>&nbsp;
 A document that was a product of the second continental congress of the united states of America. The document was written by the congress in 1776-1777.
           </p>
           <br />
-          <p>{" "}
+          <p>&nbsp;
 A 1778-07-09 copy from https://catalog.archives.gov/id/301687 accessed on 2022/01/30 reads:
           </p>{" "}
           <br />
@@ -42,7 +42,7 @@ Article IV. The better to secure and perpetuate mutual friendship and intercours
           <p>{" "}
  If any person guilty of, or charged with treason, felony, or other high misdemeanor in any state, shall flee from Justice, and be found in any of the united states, he shall upon demand of the Governor or executive power, of the state from which he fled, be delivered up and removed to the state having jurisdiction of his offense.
           </p>{" "}
-          <p>
+          <p>&nbsp;
  Full faith and credit shall be given in each of these states to the records, acts, and judicial proceedings of the courts and magistrates of every other state.
           </p>{" "}
           <br />

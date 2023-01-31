@@ -21,7 +21,7 @@ A 1778/07/09 copy from https://catalog.archives.gov/id/301687 accessed on 2022/0
           </p>
           <br />
           <p>&nbsp;
-To all to whom these Presents shall come, we the undersigned Delegates of the States affixed to our Names send greeting. Whereas the Delegates of the United States of America in Congress assembled did on the fifteenth day of November in the Year of our Lord One Thousand Seven Hundred and Seventy seven, and in the Second Year of the Independence of America agree to certain articles of Confederation and perpetual Union between the states of Newhampshire, Massachusetts-bay, Rhodeisland and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia, in the Words following viz. &quot;Articles of Confederation and perpetual Union between the states Newhampshire, Massachusetts-bay, Rhodeisland and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia.
+To all to whom these Presents shall come, we the under signed Delegates of the States affixed to our Names send greeting. Whereas the Delegates of the United States of America in Congress assembled did on the fifteenth day of November in the Year of our Lord One Thousand Seven Hundred and Seventy seven, and in the Second Year of the Independence of America agree to certain articles of Confederation and perpetual Union between the states of Newhampshire, Massachusetts-bay, Rhodeisland and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia, in the Words following viz. &quot;Articles of Confederation and perpetual Union between the states Newhampshire, Massachusetts-bay, Rhodeisland and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia.
           </p>
           <br />
           <p>&nbsp;
@@ -37,7 +37,7 @@ Article III. The said states hereby severally enter into a firm league of friend
           </p>
           <br />
           <p>&nbsp;
-Article IV. The better to secure and perpetuate mutual friendship and intercourse among the people of the different states in this Union, the free inhabitants of each of these states, paupers, vagabonds, and fugitives from Justice excepted, shall be entitled to all privileges and immunities of free citizens in the several states; and the people of each state shall free ingress and regress to and from any other state, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties, impositions, and restrictions as the inhabitants thereof respectively, provided that such restrictions shall not extend so far as to prevent the removal of property imported into any state, to any other state, of which the Owner is an inhabitant; provided also that no imposition, duties or restriction shall be laid by any state, on the property of the united states, or either of them.
+Article IV. The better to secure and perpetuate mutual friendship and intercourse among the people of the different states in this union, the free inhabitants of each of these states, paupers, vagabonds, and fugitives from Justice excepted, shall be entitled to all privileges and immunities of free citizens in the several states; and the people of each state shall free ingress and regress to and from any other state, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties, impositions, and restrictions as the inhabitants thereof respectively, provided that such restrictions shall not extend so far as to prevent the removal of property imported into any state, to any other state, of which the Owner is an inhabitant; provided also that no imposition, duties or restriction shall be laid by any state, on the property of the united states, or either of them.
           </p>
           <p>&nbsp;
  If any person guilty of, or charged with treason, felony, or other high misdemeanor in any state, shall flee from Justice, and be found in any of the united states, he shall upon demand of the Governor or executive power, of the state from which he fled, be delivered up and removed to the state having jurisdiction of his offense.
@@ -125,7 +125,7 @@ Article XIII. Every state shall abide by the determination of the united states 
           </p>
           <br />
           <p>&nbsp;
-And Whereas it hath pleased the Great Governor of the World to incline the hearts of the legislatures we respectively represent in congress, to approve of, and to authorize us to ratify the said articles of confederation and perpetual union. Know Ye that we the undersigned delegates, by virtue of the power and authority to us given for that purpose, do by these presents, in the name and in behalf of our respective constituents, fully and entirely ratify and confirm each and every of the said articles of confederation and perpetual union, and all and singular the matters and things therein contained: And we do further solemnly plight and engage the faith of our respective constituents, that they shall abide by the determinations of the united states in congress assembled, on all questions, which by the said confederation are submitted to them. And that the articles thereof shall be inviolably observed by the states we respectively represent, and that the Union shall be perpetual. In Witness whereof we have hereunto set our hands in Congress. Done at Philadelphia in the state of Pennsylvania the ninth Day of July in the Year of our Lord one Thousand seven Hundred and Seventy-eight, and in the third year of the independence of America.
+And Whereas it hath pleased the Great Governor of the World to incline the hearts of the legislatures we respectively represent in congress, to approve of, and to authorize us to ratify the said articles of confederation and perpetual union. Know Ye that we the undersigned delegates, by virtue of the power and authority to us given for that purpose, do by these presents, in the name and in behalf of our respective constituents, fully and entirely ratify and confirm each and every of the said articles of confederation and perpetual union, and all and singular the matters and things therein contained: And we do further solemnly plight and engage the faith of our respective constituents, that they shall abide by the determinations of the united states in congress assembled, on all questions, which by the said confederation are submitted to them. And that the articles thereof shall be inviolably observed by the states we respectively represent, and that the union shall be perpetual. In Witness whereof we have hereunto set our hands in Congress. Done at Philadelphia in the state of Pennsylvania the ninth Day of July in the Year of our Lord one Thousand seven Hundred and Seventy-eight, and in the third year of the independence of America.
           </p>
           <br />
           <p>&nbsp;
@@ -142,9 +142,9 @@ Witnessed by hand 9 July 1778. catalog.archives.gov/id/301687
 In force after ratification by Maryland, 1 March 1781
           <br />
           <br />&nbsp;
-MD5 Hash of &quot;Articles...state.&quot; 4febeb58c613c32cef2d7ad93aefce4b
+MD5 Hash of &quot;Articles...state.&quot; ce1562bd81ba9cfb8f700e8073072e3c
           <br />&nbsp;
-MD5 Hash of &quot;To all...America.&quot; c2efd9e69274885cb607aeeb1bd38bd2
+MD5 Hash of &quot;To all...America.&quot; cb680ceaec5a07869d49a1efd320dbb7
           </p>
         </div>
       </div>

@@ -142,9 +142,11 @@ Witnessed by hand 9 July 1778. catalog.archives.gov/id/301687
 In force after ratification by Maryland, 1 March 1781
           <br />
           <br />&nbsp;
-MD5 Hash of &quot;Articles...state.&quot; ce1562bd81ba9cfb8f700e8073072e3c
+MD5 Hash of &quot;Articles...state.&quot; 07b9d9ebce34ce251ce82b093c5fa89b 
           <br />&nbsp;
-MD5 Hash of &quot;To all...America.&quot; cb680ceaec5a07869d49a1efd320dbb7
+MD5 Hash of &quot;To all...America.&quot; 49b02b198b1004d767a8630a88bdcbb4 
+          <br />&nbsp;
+(single space between words, sentences, paragraphs, aricles, no new lines)
           </p>
         </div>
       </div>

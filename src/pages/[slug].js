@@ -62,7 +62,7 @@ const Details = ({ data }) => {
       </div>
 
       <div className='DetayMd5'>
-        <a href={`${origin}${asPath}/posit`}>"See posit" </a>
+        <a href={`${origin}${asPath}/posit`}>See posit </a>
       </div>
 
       <div className='DetayIconBar'>

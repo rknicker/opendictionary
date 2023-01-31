@@ -53,9 +53,7 @@ const Details = ({ data }) => {
         <p className='DetayVersion'>{data?.wordVersion}</p>
       </div>
 
-      
-
-      <div className='Detay'>
+       <div className='Detay'>
         <p>{data?.description}</p>
       </div>
 
@@ -63,7 +61,9 @@ const Details = ({ data }) => {
         <span>{data?.md5}</span>
       </div>
 
- 
+      <div className='DetayMd5'>
+        <span>{data?.md5}</span>
+      </div>
 
       <div className='DetayIconBar'>
         <IconsBar

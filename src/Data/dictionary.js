@@ -23,7 +23,7 @@ const dictionary = [
     slug: "articles-of-confederation-3-1-1",
     description: "A document that was a product of the second continental congress of the united states of America. The document was written by the congress in 1776-1777. Approved by the congress 17 Nov 1777. &lt;br&gt; https://catalog.archives.gov/id/301687 accessed on 2022/01/30",
     telegramPost: "15",
-    version: "1.0",
+    version: "1.2",
   },
   {
     name: "United States",

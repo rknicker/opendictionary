@@ -61,8 +61,8 @@ const Details = ({ data }) => {
         <span>{data?.md5}</span>
       </div>
 
-      <div className='DetayMd5'>
-        <a href={`${origin}${asPath}/posit`}>See posit </a>
+      <div className='Detay'>
+        <a className='Detay' href={`${origin}${asPath}/posit`}>See posit </a>
       </div>
 
       <div className='DetayIconBar'>

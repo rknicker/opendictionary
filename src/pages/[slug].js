@@ -62,8 +62,8 @@ const Details = ({ data }) => {
       </div>
 
       <div> 
-        {data?.version === '1.0' &&
-        <a className='Detay' href={`${origin}${asPath}/posit`}>See posit </a>
+        {data?.version === '1.2' &&
+        <a className='Detay' href={`${origin}${asPath}/posit`}>See &#47;posit </a>
         }
       </div>
 

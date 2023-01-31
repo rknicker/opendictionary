@@ -139,7 +139,7 @@ Approved by the congress 17 November 1777.
           <br />
 Witnessed by hand 9 July 1778. catalog.archives.gov/id/301687
           <br />
-In force after ratification by Maryland, 1 March 1781
+In force after ratification by Maryland, 1 March 1781.
           <br />
           <br />
 MD5 Hash of &quot;Articles...state.&quot; 07b9d9ebce34ce251ce82b093c5fa89b 

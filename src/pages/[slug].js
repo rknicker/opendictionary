@@ -62,7 +62,7 @@ const Details = ({ data }) => {
       </div>
 
       <div className='DetayMd5'>
-        <span>{data?.md5}</span>
+        <span>{`${origin}${asPath}`}</span>
       </div>
 
       <div className='DetayIconBar'>

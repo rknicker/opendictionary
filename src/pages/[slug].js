@@ -61,6 +61,10 @@ const Details = ({ data }) => {
         <span>{data?.md5}</span>
       </div>
 
+      <div>
+        
+      </div>
+
       <div className='DetayIconBar'>
         <IconsBar
           likeLink={`${likeButtonLink}${data?.telegramPost}`}

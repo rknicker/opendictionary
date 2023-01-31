@@ -5,41 +5,41 @@ export default function Posit() {
   return (
     <>
       <Head>
-        <title>Articles</title>
+        <title>Articles of Confederation 3.1.1</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
       <div className="About">
         <div className="AboutDesc">
           <h1>Articles of Confederation 3.1.1</h1>
-          <p>
+          <p>{" "}
 A document that was a product of the second continental congress of the united states of America. The document was written by the congress in 1776-1777.
-          </p>{" "}
+          </p>
           <br />
-          <p>
+          <p>{" "}
 A 1778-07-09 copy from https://catalog.archives.gov/id/301687 accessed on 2022/01/30 reads:
           </p>{" "}
           <br />
-          <p>
+          <p>{" "}
 To all to whom these Presents shall come, we the undersigned Delegates of the States affixed to our Names send greeting. Whereas the Delegates of the United States of America in Congress assembled did on the fifteenth day of November in the Year of our Lord One Thousand Seven Hundred and Seventy seven, and in the Second Year of the Independence of America agree to certain articles of Confederation and perpetual Union between the states of Newhampshire, Massachusetts-bay, Rhodeisland and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia, in the Words following viz. &quot;Articles of Confederation and perpetual Union between the states Newhampshire, Massachusetts-bay, Rhodeisland and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina and Georgia.
           </p>{" "}
           <br />
-          <p>
+          <p>{" "}
 Article I. The Stile of this Confederacy shall be &quot;The United States of America&quot;.
           </p>{" "}
           <br />
-          <p>
+          <p>{" "}
 Article II. Each state retains its sovereignty, freedom, and independence, and every Power, Jurisdiction, and right, which is not by this confederation expressly delegated to the United States, in Congress assembled.
           </p>{" "}
           <br />
-          <p>
+          <p>{" "}
 Article III. The said states hereby severally enter into a firm league of friendship with each other, for their common defense, the security of their Liberties, and their mutual and general welfare, binding themselves to assist each other, against all force offered to, or attacks made upon them, or any of them, on account of religion, sovereignty, trade, or any other pretense whatever.
           </p>{" "}
           <br />
-          <p>
+          <p>{" "}
 Article IV. The better to secure and perpetuate mutual friendship and intercourse among the people of the different states in this Union, the free inhabitants of each of these states, paupers, vagabonds, and fugitives from Justice excepted, shall be entitled to all privileges and immunities of free citizens in the several states; and the people of each state shall free ingress and regress to and from any other state, and shall enjoy therein all the privileges of trade and commerce, subject to the same duties, impositions, and restrictions as the inhabitants thereof respectively, provided that such restrictions shall not extend so far as to prevent the removal of property imported into any state, to any other state, of which the Owner is an inhabitant; provided also that no imposition, duties or restriction shall be laid by any state, on the property of the united states, or either of them.
           </p>{" "}
-          <p>
+          <p>{" "}
  If any person guilty of, or charged with treason, felony, or other high misdemeanor in any state, shall flee from Justice, and be found in any of the united states, he shall upon demand of the Governor or executive power, of the state from which he fled, be delivered up and removed to the state having jurisdiction of his offense.
           </p>{" "}
           <p>

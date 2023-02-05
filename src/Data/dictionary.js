@@ -6,7 +6,7 @@ const dictionary = [
     description:
       "A round fruit with red or green skin and a firm white inside.",
     telegramPost: "5",
-    version: "1.2",
+    version: "1.0",
   },
   {
     name: "Apple",
@@ -32,6 +32,15 @@ const dictionary = [
     description:
       "The model of the cosmos where the self is the reference point. When referring to a living soul, the autocentric model is the point of view of the living soul. This is contrasted with the geocentric model, heliocentric model and the exocentric model. See also geocentric 1.1.1, heliocentric 1.1.1, exocentric 1.1.1",
     telegramPost: "20",
+    version: "1.0",
+  },
+  {
+    name: "Chief Adirondack",
+    wordVersion: "2.1.1",
+    slug: "-chief--adirondack-2-1-1",
+    description:
+      "Found in these folders: ink/which-flows-from/the-pen-of-someone-who-knows-the-name-of-Chief-Adirondack-his-mother-his-father-and-his-borne-date/while-that-someone-intends-to-benefit-Chief-Adirondack/blue-ink, OR a-framed-printed-painting/with-a-native-american-with-three-wolves/says-the-name-of-Chief-Adirondack-his-mother-his-father-his-borne-date, OR someone-wearing-a-white-glove/which-reads-Chief-Adirondack-4-2",
+    telegramPost: "24",
     version: "1.0",
   },
   {

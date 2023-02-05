@@ -2,7 +2,7 @@ export const telegramChannelName = 'opendictionary1'
 // For you Navbar in Links Dynamic Changed
 export const createWordButtonLink = 'https://t.me/opendictionary1/4`'
 export const ContributeLink =
-  'https://github.com/rknicker/opendictionary/main/src/Data/dictionary.js'
+  'https://github.com/rknicker/opendictionary/blob/main/src/Data/dictionary.js'
 export const HomePage = '/'
 export const AboutPage = '/about'
 export const Telegram = `https://t.me/${telegramChannelName}`

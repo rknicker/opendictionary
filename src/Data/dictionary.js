@@ -2,7 +2,7 @@ const dictionary = [
   {
     name: "Apple",
     wordVersion: "1.1.1",
-    slug: "apple-1-1-1",
+    slug: "Apple-1-1-1",
     description:
       "A round fruit with red or green skin and a firm white inside.",
     telegramPost: "5",
@@ -11,19 +11,46 @@ const dictionary = [
   {
     name: "Apple",
     wordVersion: "1.1.2",
-    slug: "apple-1-1-2",
+    slug: "Apple-1-1-2",
     description:
-      "A round fruit with red or green skin and a firm white inside.",
-    telegramPost: "6",
+      "Maker of iPhone, Macbook, Airpods, Apple Watch, Apple TV, etc.",
+    telegramPost: "23",
     version: "1.0",
   },
   {
     name: "Articles of Confederation",
     wordVersion: "3.1.1",
-    slug: "articles-of-confederation-3-1-1",
+    slug: "Articles-of-Confederation-3-1-1",
     description: "A document that was a product of the second continental congress of the united states of America. The document was written by the congress in 1776-1777.",
     telegramPost: "15",
     version: "1.2",
+  },
+  {
+    name: "autocentric",
+    wordVersion: "1.1.1",
+    slug: "autocentric-1-1-1",
+    description:
+      "The model of the cosmos where the self is the reference point. When referring to a living soul, the autocentric model is the point of view of the living soul. This is contrasted with the geocentric model, heliocentric model and the exocentric model. See also geocentric 1.1.1, heliocentric 1.1.1, exocentric 1.1.1",
+    telegramPost: "20",
+    version: "1.0",
+  },
+  {
+    name: "Community DAO",
+    wordVersion: "2.1.1",
+    slug: "Community-DAO-2-1-1",
+    description:
+      "The Community DAO 2.1.1 (Distributed Autonomous Organization) is the secular arm of the We Church 2.1.1. Community DAO is a foundation vested with the intent of the god that living souls build a heaven of good diversity with respect to emotional interactions with others and self reliance physically. Harmony need not require supply chains. Commerce and slavery have long been used to fulfill basic needs, as an example most water is piped in, most electricity is taken from the electrical grid, and most toilet paper is manufactured offsite. Without knowing by whom and in what circumstances the commodities are sourced, the probability of slavery is unknown and therefore forgettable. Community DAO is focused on a higher mission, but this heaven to be will need to exclude involuntary servitude on its face.",
+    telegramPost: "21",
+    version: "1.0",
+  },
+  {
+    name: "Declaration of Independence",
+    wordVersion: "3.1.1",
+    slug: "Declaration-of-Independence-3-1-1",
+    description:
+      "The document created and approved 4 July 1776 as the organic document to form the United States of America.",
+    telegramPost: "22",
+    version: "1.0",
   },
   {
     name: "Réx",

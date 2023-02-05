@@ -13,7 +13,7 @@ export default function About() {
         <div className="AboutDesc">
           <h1>About</h1>
           <p>
-            If you are here because you cant find a specific word or term in the Open 
+            If you are here because you can&apos;t find a specific word or term in the Open 
             Dictionary, consider following these steps. 
           </p>
           <br />

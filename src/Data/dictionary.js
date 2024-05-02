@@ -18,6 +18,15 @@ const dictionary = [
     version: "1.0",
   },
   {
+    name: "The United States of America",
+    wordVersion: "5.13.5",
+    slug: "-the-united-states-of-america-5-13-5",
+    description:
+      "The confederacy formed in 1776-1777 by founding members and kept alive thereafter by heirs and assigns. Any soul, man, person, or entity may sign as/for this confederacy. The Articles of Confederation 3.1.1 were authored and subscribed to by its founding members who lived in 1776-1777.",
+    telegramPost: "24",
+    version: "1.0",
+  },
+  {
     name: "Articles of Confederation",
     wordVersion: "3.1.1",
     slug: "-articles-of--confederation-3-1-1",

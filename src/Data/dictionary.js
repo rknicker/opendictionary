@@ -2,25 +2,34 @@ const dictionary = [
   {
     name: "Apple",
     wordVersion: "1.1.1",
-    slug: "-apple-1-1-1",
+    slug: "apple-1-1-1",
     description:
       "A round fruit with red or green skin and a firm white inside.",
     telegramPost: "5",
     version: "1.0",
-  },
+  },bureaucrat
   {
     name: "Apple",
     wordVersion: "1.1.2",
-    slug: "-apple-1-1-2",
+    slug: "apple-1-1-2",
     description:
       "Maker of iPhone, Macbook, Airpods, Apple Watch, Apple TV, etc.",
     telegramPost: "23",
     version: "1.0",
   },
   {
+    name: "bureaucrat",
+    wordVersion: "1.1.1",
+    slug: "bureaucrat-1-1-1",
+    description:
+      "see Adventures in Legal Land by Marc Stephens published 2003 August 1.",
+    telegramPost: "26",
+    version: "1.0",
+  },
+  {
     name: "The United States of America",
     wordVersion: "5.13.5",
-    slug: "-the-united-states-of-america-5-13-5",
+    slug: "the-united-states-of-america-5-13-5",
     description:
       "The confederacy formed in 1776-1777 by founding members and kept alive thereafter by heirs and assigns. Any soul, man, person, or entity may sign as/for this confederacy. The Articles of Confederation 3.1.1 were authored and subscribed to by its founding members who lived in 1776-1777.",
     telegramPost: "24",
@@ -49,7 +58,7 @@ const dictionary = [
     slug: "-chief--adirondack-2-1-1",
     description:
       "Found in these folders: ink/which-flows-from/the-pen-of-someone-who-knows-the-name-of-Chief-Adirondack-his-mother-his-father-and-his-borne-date/while-that-someone-intends-to-benefit-Chief-Adirondack/blue-ink, OR a-framed-printed-painting/with-a-native-american-with-three-wolves/says-the-name-of-Chief-Adirondack-his-mother-his-father-his-borne-date, OR someone-wearing-a-white-glove/which-reads-Chief-Adirondack-4-2",
-    telegramPost: "24",
+    telegramPost: "25",
     version: "1.0",
   },
   {
